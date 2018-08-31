@@ -1,0 +1,108 @@
+body {
+	background-image: url(images/image-6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 1em;
+	height: 100vh;
+	background-position: fixed;
+}
+
+body,html {
+	height: 100%;
+	width: 100%;
+}
+
+.input-group {
+	margin: 1em auto;
+	max-width: 500px;
+}
+
+.input-group-text:hover {
+   border: 2px solid #1a1a1a;
+
+}
+
+#weather-info {
+	text-align: center;
+	color: white;
+	display: none;
+}
+
+.city-name {
+	font-size: 2.5em;
+	letter-spacing: 2px;
+}
+
+.temp {
+	font-size: 3em;
+	margin-top: 20px;
+}
+
+.temp-range {
+	font-size: 2em;
+	margin-top: 16px;
+}
+
+.para {
+	font-size: 2em;
+	margin-top: 16px;
+}
+
+#weather-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-top: 1px solid white;
+	margin-top: 3em;
+}
+
+.day-name1,.day-name2,.day-name3,.day-name4,.day-name5 {
+	font-size: 1em;
+	margin-top: 1em;
+}
+
+.wi-rain {
+	font-size: 3em;
+}
+
+.wi-thunderstorm {
+	font-size: 3em;
+}
+
+.wi-snow {
+	font-size: 3em;
+}
+
+.wi-cloud {
+	font-size: 3em;
+}
+
+.wi-day-sunny {
+	font-size: 3em;
+}
+
+.date-name1,.date-name2,.date-name3,.date-name4,.date-name5 {
+	font-size: 1em;
+	margin-top: 1em;
+}
+.description {
+	font-size: 6em;
+}
+.icon {
+	font-size: 1.5em;
+}
+.forecast-icon1 {
+	font-size: 2em;
+}
+.forecast-icon2 {
+	font-size: 2em;
+}
+.forecast-icon3 {
+	font-size: 2em;
+}
+.forecast-icon4 {
+	font-size: 2em;
+}
+.forecast-icon5 {
+	font-size: 2em;
+}
