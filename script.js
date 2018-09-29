@@ -16,7 +16,7 @@ function getWeather() {
       document.querySelector(".min").innerHTML = data.main.temp_min;
       document.querySelector(".max").innerHTML = data.main.temp_max;
 
-      let weatherIcon = data.weather[0].description;
+      let weatherIcon = data.weather[0].main;
       if (weatherIcon == "broken clouds") {
         document.querySelector(".description").innerHTML = `<i class="wi wi-cloud"></i>`;
 
