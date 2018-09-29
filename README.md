@@ -30,7 +30,16 @@ you shuld go there for getting CDN https://developers.google.com/speed/libraries
 ## Material I used init
 I used javascript and jquery.. i fetched the data from open weather app
 
+### You can see screenshot here ###
+
+
+
 ### You can see and use my app from here 
+
+#### Image ####
+
+![image](https://user-images.githubusercontent.com/38943389/46243661-532fa980-c3f0-11e8-9459-3f9310dd0f31.PNG)
+
 
 
 https://noreennaz1234.github.io/forecast-weather/
