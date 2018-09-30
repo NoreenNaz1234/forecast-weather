@@ -16,7 +16,11 @@ function getWeather() {
       document.querySelector(".min").innerHTML = data.main.temp_min;
       document.querySelector(".max").innerHTML = data.main.temp_max;
 
+
       let weatherIcon = data.weather[0].main;
+
+
+
       if (weatherIcon == "broken clouds") {
         document.querySelector(".description").innerHTML = `<i class="wi wi-cloud"></i>`;
 
@@ -46,11 +50,11 @@ function getWeather() {
 
       } else {
         document.querySelector(".description").innerHTML = `<i class="wi wi-cloudy"></i>`;
-
-      }
+  }
     },
     error: function (err) {
-    alert(data);
+     alert('City is not found');
+     
     }
   });
 
@@ -276,11 +280,11 @@ function getWeather() {
 
       } else {
         document.querySelector(".forecast-icon5").innerHTML = `<i class="wi wi-sandstorm"></i>`
-
       }
     },
     error: function (err) {
-      alert(data);
+      alert('City is not found');
+       
     }
   });
 }
